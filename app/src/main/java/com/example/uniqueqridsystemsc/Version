@@ -1,0 +1,11 @@
+SC v1.0 10/16/2023
+-Fixed uncomfortable way of inputting details.
+-Added onBackPressed() method to inform student that the data will be erased.
+-Added Student Counter in Check In
+-Put the latest time in and out above.
+
+SC v2.0 10/18/2023
+-Changed Theme Color from Purple to Gray
+-Changed App Icon Color
+-Added total students checked in on Dashboard.java
+-Added ScrollView in Registration

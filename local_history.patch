@@ -1,0 +1,28 @@
+Index: app/src/main/java/com/example/uniqueqridsystemsc/Log.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/uniqueqridsystemsc/Log.java b/app/src/main/java/com/example/uniqueqridsystemsc/Log.java
+--- a/app/src/main/java/com/example/uniqueqridsystemsc/Log.java	
++++ b/app/src/main/java/com/example/uniqueqridsystemsc/Log.java	(date 1697548623308)
+@@ -140,15 +140,15 @@
+                     LogItem logItem = new LogItem(uniqueID, firstName, lastName, school, checkInTime);
+                     adapter.add(logItem);
+ 
+-                    // Add items to the beginning of the temporary list
+-                    tempList.add(0, logItem);
++//                    // Add items to the beginning of the temporary list
++//                    tempList.add(0, logItem);
+                 }
+ //
+ //                // Clear the adapter to avoid duplicates
+ //                adapter.clear();
+ 
+-                // Add all items from the temporary list to the adapter
+-                adapter.addAll(tempList);
++//                // Add all items from the temporary list to the adapter
++//                adapter.addAll(tempList);
+ 
+                 // Notify the adapter that the data has changed
+                 adapter.notifyDataSetChanged();

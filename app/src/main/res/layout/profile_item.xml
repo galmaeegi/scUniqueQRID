@@ -1,0 +1,77 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:padding="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:elevation="6dp"
+    android:background="@drawable/item_border">
+
+    <TextView
+        android:id="@+id/fullNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:gravity="start"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/schoolTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="start"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="1"
+        android:layout_columnWeight="1" />
+    <TextView
+        android:id="@+id/personalEmailTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="start"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="1"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:id="@+id/phoneNumberTextView"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:clickable="true"
+        android:text="Phone Number"
+        android:textColor="?android:attr/textColorLink" />
+
+    <TextView
+        android:id="@+id/registerDateTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="start"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1" />
+
+
+    <Button
+        android:id="@+id/deleteStudentBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:text="Delete Student"
+        android:textColor="@color/white" />
+
+</GridLayout>

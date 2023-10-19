@@ -1,0 +1,25 @@
+<!-- rounded_button.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#151515" /> <!-- Background color when pressed -->
+            <corners android:radius="20dp" /> <!-- Adjust the radius for rounded corners -->
+            <padding
+                android:left="8dp"
+                android:top="8dp"
+                android:right="8dp"
+                android:bottom="8dp" /> <!-- Add some padding for shadow effect -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#313131" /> <!-- Default background color -->
+            <corners android:radius="20dp" /> <!-- Adjust the radius for rounded corners -->
+            <padding
+                android:left="8dp"
+                android:top="8dp"
+                android:right="8dp"
+                android:bottom="8dp" /> <!-- Add some padding for shadow effect -->
+        </shape>
+    </item>
+</selector>
